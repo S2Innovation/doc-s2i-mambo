@@ -1,0 +1,1351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Welcome to Mambo’s documentation! &mdash; Mambo 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Mambo 1.0 documentation" href="#" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-mambo-s-documentation">
+<h1>Welcome to Mambo&#8217;s documentation!<a class="headerlink" href="#welcome-to-mambo-s-documentation" title="Permalink to this headline">¶</a></h1>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul class="simple">
+</ul>
+</div>
+<p><a class="reference internal" href="_images/image5.png"><img alt="image0" src="_images/image5.png" style="width: 1.68750in; height: 0.84375in;" /></a></p>
+<p>ICA Group</p>
+<p><strong>Mambo User Manual</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="11%" />
+<col width="11%" />
+<col width="12%" />
+<col width="13%" />
+<col width="28%" />
+<col width="9%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Diffusion date</strong></th>
+<th class="head"><strong>Writer</strong></th>
+<th class="head"><strong>Auditor</strong></th>
+<th class="head"><strong>Approver</strong></th>
+<th class="head"><p class="first"><strong>Approver’s</strong></p>
+<p class="last"><strong>stamp</strong></p>
+</th>
+<th class="head"><strong>Modifications</strong></th>
+<th class="head"><strong>Index</strong></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>2005/10/26</td>
+<td>L.Claisse</td>
+<td>M.Ounsy</td>
+<td>A.Buteau</td>
+<td>A.B.</td>
+<td>Creation</td>
+<td>1.0</td>
+</tr>
+<tr class="row-odd"><td>2005/11/17</td>
+<td>L.Claisse</td>
+<td>M.Ounsy</td>
+<td>A.Buteau</td>
+<td>A.B.</td>
+<td>Added multi-AC/VC and file system</td>
+<td>1.1</td>
+</tr>
+<tr class="row-even"><td>2006/11/17</td>
+<td>R.Girardot</td>
+<td>M.Ounsy</td>
+<td>A.Buteau</td>
+<td>A.B.</td>
+<td>Screenshots updated</td>
+<td>1.2</td>
+</tr>
+<tr class="row-odd"><td>2012/02/15</td>
+<td><ol class="first last upperalpha simple">
+<li>Fourneau</li>
+</ol>
+</td>
+<td>G.Abeillé</td>
+<td>A.Buteau</td>
+<td>A.B.</td>
+<td>Added tdb long term</td>
+<td>2.1</td>
+</tr>
+<tr class="row-even"><td>2018/02/08</td>
+<td>M.Thiam</td>
+<td>R.Girardot</td>
+<td>A.Buteau</td>
+<td>A.B.</td>
+<td><ul class="first last simple">
+<li>Document template updated</li>
+<li>Screenshots updated</li>
+<li>Added some missing descriptions</li>
+</ul>
+</td>
+<td>3.0</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>Diffusion: for information</p>
+<p>Receivers: Any archiving User</p>
+<p>Table of content:</p>
+<p><a class="reference external" href="#introduction">1. Introduction</a></p>
+<p><a class="reference external" href="#applications-context-historic-and-temporary-archiving">2. Application’s context: Historic and Temporary archiving</a></p>
+<p><a class="reference external" href="#applications-description-and-goals">3. Application’s description and goals</a></p>
+<p><a class="reference external" href="#applications-goals">3.1 Application’s goals</a></p>
+<p><a class="reference external" href="#a-first-look-at-mambo">3.2 A first look at Mambo</a></p>
+<p><a class="reference external" href="#account-manager">4 Account manager</a></p>
+<p><a class="reference external" href="#creating-a-new-account">4.1 Creating a new account</a></p>
+<p><a class="reference external" href="#deleting-an-existing-account">4.2 Deleting an existing Account</a></p>
+<p><a class="reference external" href="#launching-application-with-an-existing-account">4.3 Launching application with an existing account</a></p>
+<p><a class="reference external" href="#control-archiving">5 Control archiving</a></p>
+<p><a class="reference external" href="#creating-modifying-an-ac">5.1 Creating/modifying an AC</a></p>
+<p><a class="reference external" href="#the-opened-acs-menu">5.2 The opened ACs menu</a></p>
+<p><a class="reference external" href="#starting-stopping-archiving">5.3 Starting/Stopping archiving</a></p>
+<p><a class="reference external" href="#the-current-archiving-configuration-detail-panel">5.3.1 The Current Archiving Configuration detail panel</a></p>
+<p><a class="reference external" href="#starting-stopping-archiving-on-an-ac">5.3.2 Starting/Stopping archiving on an AC</a></p>
+<p><a class="reference external" href="#displaying-an-ac">5.4 Displaying an AC</a></p>
+<p><a class="reference external" href="#the-current-archiving-configuration">5.4.1 The Current Archiving Configuration</a></p>
+<p><a class="reference external" href="#the-archiving-assessment-window">5.4.2 The Archiving assessment window</a></p>
+<p><a class="reference external" href="#saving-loading-an-ac">5.5 Saving/Loading an AC</a></p>
+<p><a class="reference external" href="#saving-an-individual-ac">5.5.1 Saving an individual AC</a></p>
+<p><a class="reference external" href="#saving-all-opened-acs">5.5.2 Saving all opened ACs</a></p>
+<p><a class="reference external" href="#transfer-to-vc">5.6 Transfer to VC</a></p>
+<p><a class="reference external" href="#exploit-archived-data">6 Exploit archived data</a></p>
+<p><a class="reference external" href="#creating-modifying-a-vc">6.1 Creating/modifying a VC</a></p>
+<p><a class="reference external" href="#the-opened-vcs-menu">6.2 The opened VCs menu</a></p>
+<p><a class="reference external" href="#displaying-a-vc">6.3 Displaying a VC</a></p>
+<p><a class="reference external" href="#saving-loading-a-vc">6.4 Saving/Loading a VC</a></p>
+<p><a class="reference external" href="#using-the-variations-functionality">6.5 Using the Variations functionality</a></p>
+<p><a class="reference external" href="#options">7 Options</a></p>
+<p><a class="reference external" href="#applications-history-save-load-options">7.1 Application’s history save/load options</a></p>
+<p><a class="reference external" href="#ac-options">7.2 AC options</a></p>
+<p><a class="reference external" href="#vc-options">7.3 VC options</a></p>
+<p><a class="reference external" href="#general-options">7.4 General options</a></p>
+<p><a class="reference external" href="#the-mambo-toolbar">8 The Mambo toolbar</a></p>
+</div>
+<div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>This document is an end-user guide to using the Mambo application, and a
+brief developer-oriented presentation of the application’s architecture.</p>
+</div>
+<div class="section" id="applications-context-historic-and-temporary-archiving">
+<h1>Application’s context: Historic and Temporary archiving<a class="headerlink" href="#applications-context-historic-and-temporary-archiving" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>The goal is the automatic archiving of the values of a set of Tango
+Attributes, in a given time range.</p>
+<p>In this time range, the value of an attribute is archived:</p>
+</div></blockquote>
+<ul>
+<li><p class="first">Every [<em>given time interval</em>]</p>
+<blockquote>
+<div><p><strong>AND</strong></p>
+</div></blockquote>
+</li>
+<li><p class="first">When the attribute’s value meets [<em>given condition on attribute’s value</em>],</p>
+<blockquote>
+<div><p>where [<em>given time interval</em>] and [<em>given condition on attribute’s value</em>] are user-defined for each attribute (individually or for a
+group of attributes).</p>
+<p>Each attribute value is associated with a time stamp, representing
+the time when the attribute value was read. This time stamp is
+archived as well.</p>
+<p>Attributes can be archived in two distinct databases:</p>
+</div></blockquote>
+</li>
+<li><dl class="first docutils">
+<dt>The Historical Data Base (<strong>HDB</strong> henceforth): attributes values</dt>
+<dd><p class="first last">are stored forever.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The Temporary Data Base (<strong>TDB</strong> henceforth): every [<em>given deletion time</em>], the oldest attributes values records are</dt>
+<dd><blockquote class="first">
+<div><p>deleted. The TDB is regularly purged. The Interval of this purge
+is defined by the data base administrator and the system
+administrator.</p>
+</div></blockquote>
+<p>When an attribute is “being <strong>archived</strong>”, it means that every
+[<em>base time unit</em>], the archiving device tests whether the current
+value of the attribute has to be stored in HDB (resp. TDB).</p>
+<p>If the test is positive, a record is added in the table for this
+attribute.</p>
+<p class="last">Later, those values can be <strong>exploited</strong>. It can be selected from
+HDB/TDB to be displayed and saved in a file</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="applications-description-and-goals">
+<h1>Application’s description and goals<a class="headerlink" href="#applications-description-and-goals" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="applications-goals">
+<h2>Application’s goals<a class="headerlink" href="#applications-goals" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Mambo allows the user to define <em>configurations</em> that describe the
+archiving and exploitation for a group of attributes. Those
+<em>configurations</em> can be saved as files and modified.</p>
+<p>Mambo is thus naturally divided (both in functionalities and
+display) in two parts:</p>
+</div></blockquote>
+<ul class="simple">
+<li>The archiving control part.</li>
+<li>The archived data exploitation part.</li>
+</ul>
+</div>
+<div class="section" id="a-first-look-at-mambo">
+<h2>A first look at Mambo<a class="headerlink" href="#a-first-look-at-mambo" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p><a class="reference internal" href="_images/image6.png"><img alt="image1" src="_images/image6.png" style="width: 6.30000in; height: 4.38125in;" /></a></p>
+<p>Figure 1: General view of Mambo</p>
+</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>The Archiving Control panel is where the user controls the archiving</dt>
+<dd><blockquote class="first">
+<div><p>of Tango attributes in HDB/TDB.</p>
+</div></blockquote>
+<p>To do so, the user can create/modify archiving configurations, and
+Start/Stop those configurations.</p>
+<p>An <strong>Archiving Configuration</strong> is a list of attributes to be
+archived, with a list of archiving parameters for each attribute.</p>
+<p class="last">Users can also start/stop the archiving of some attributes in the
+configuration, (see 5.3.2 <em>Starting/Stopping archiving on an AC</em>).</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The Data Exploitation panel is where the user exploits the previously</dt>
+<dd><blockquote class="first">
+<div><p>stored data, mainly displaying curves and extracting raw data
+from HDB/TDB.</p>
+</div></blockquote>
+<p>He does so by creating/modifying <strong>View Configurations</strong>, and
+calling <strong>View</strong> <strong>Stop</strong> on those configurations.</p>
+<p class="last">A <strong>View Configuration</strong> is a list of attributes to be displayed,
+with a list of displaying parameters for each attribute.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The Menu and the Tool bar are for actions shortcuts and application’s</dt>
+<dd><blockquote class="first">
+<div><p>options.</p>
+</div></blockquote>
+<p class="last">Each panel will be detailed in its own subsection.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="account-manager">
+<h1>Account manager<a class="headerlink" href="#account-manager" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>The Mambo Account Manager is here to manage accounts, which means:</div></blockquote>
+<ul class="simple">
+<li>Creating a new account.</li>
+<li>Deleting an existing account.</li>
+<li>Launching application with an account chosen in a list.</li>
+</ul>
+<p>An account is associated with a directory, in which are stored
+application setup and history. Having various accounts allows different
+users to have their own application configuration and history.</p>
+<blockquote>
+<div><p><a class="reference internal" href="_images/image7.png"><img alt="image2" src="_images/image7.png" style="width: 4.30268in; height: 2.00028in;" /></a></p>
+<p>Figure 2: Mambo Account Manager</p>
+<p>The above figure presents the account Manager Interface, at
+application start. With this manager, user can create a new account,
+or delete or use an existing one.</p>
+<p>To quit the application, simply click on <a class="reference internal" href="_images/image8.png"><img alt="image3" src="_images/image8.png" style="width: 1.56272in; height: 0.22920in;" /></a> or <a class="reference internal" href="_images/image9.png"><img alt="image4" src="_images/image9.png" style="width: 0.50007in; height: 0.22920in;" /></a>
+button.</p>
+<p>Existing accounts are listed in the account Selection Combo Box,
+which you can be reloaded by clicking on <a class="reference internal" href="_images/image7.png"><img alt="image5" src="_images/image7.png" style="width: 1.28788in; height: 0.22727in;" /></a> button (if you
+think that someone could have modified it by creating a new account
+or deleting an existing one, for example).</p>
+</div></blockquote>
+<div class="section" id="creating-a-new-account">
+<h2>Creating a new account<a class="headerlink" href="#creating-a-new-account" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>To create a new account, click on the <a class="reference internal" href="_images/image7.png"><img alt="image6" src="_images/image7.png" style="width: 0.99242in; height: 0.21970in;" /></a> button (at the bottom
+left of the panel). A new dialog will appear, as following.</p>
+<p><a class="reference internal" href="_images/image10.png"><img alt="image7" src="_images/image10.png" style="width: 3.11502in; height: 1.41686in;" /></a></p>
+<p>Figure 3: Creating a new account</p>
+<p>In this new dialog, you will have to enter the name of your new
+account and the path of the application working directory for this
+account. If you prefer, you can browse for the path by clicking on
+the <a class="reference internal" href="_images/image10.png"><img alt="image8" src="_images/image10.png" style="width: 0.74400in; height: 0.23200in;" /></a> button. Then, a classic browsing dialog will be
+displayed, in which you can choose the directory. When both fields
+(“Name” and “Path”) are fulfilled, click on <a class="reference internal" href="_images/image10.png"><img alt="image9" src="_images/image10.png" style="width: 0.41600in; height: 0.23200in;" /></a> button to
+validate your new account, which will be automatically added in the
+list of existing accounts. If you click on <a class="reference internal" href="_images/image11.png"><img alt="image10" src="_images/image11.png" style="width: 0.63551in; height: 0.22920in;" /></a> or <a class="reference internal" href="_images/image9.png"><img alt="image11" src="_images/image9.png" style="width: 0.50007in; height: 0.22920in;" /></a>
+button, you go back to the first dialog, as presented in, and
+nothing is done.</p>
+</div></blockquote>
+</div>
+<div class="section" id="deleting-an-existing-account">
+<h2>Deleting an existing Account<a class="headerlink" href="#deleting-an-existing-account" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>To delete an existing account, first select the account in the
+account Selection Combo Box, as following:</p>
+<p><a class="reference internal" href="_images/image12.png"><img alt="image12" src="_images/image12.png" style="width: 4.30268in; height: 2.00028in;" /></a></p>
+<p>Figure 4: Account selection</p>
+<p>When the account is selected, click on <a class="reference internal" href="_images/image13.png"><img alt="image13" src="_images/image13.png" style="width: 1.51433in; height: 0.25072in;" /></a> button to delete
+it. If you do it, you won’t be able to use this account any more
+(and no other user either), because the account is definitely
+removed from list. The account deletion doesn’t involve the
+corresponding directory (neither its content) deletion.</p>
+<p>If you want to see your account path, you can check “Show account
+path”.</p>
+<p><a class="reference internal" href="_images/image14.PNG"><img alt="image14" src="_images/image14.PNG" style="width: 4.30268in; height: 2.00028in;" /></a></p>
+<p>Figure :Show account path</p>
+</div></blockquote>
+</div>
+<div class="section" id="launching-application-with-an-existing-account">
+<h2>Launching application with an existing account<a class="headerlink" href="#launching-application-with-an-existing-account" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>To launch application with an existing account, first select the
+account in the account Selection Combo Box, as presented in <em>Figure 4: Account selection</em>.</p>
+<p>Then, click on <a class="reference internal" href="_images/image14.PNG"><img alt="image15" src="_images/image14.PNG" style="width: 1.00000in; height: 0.24800in;" /></a> button, and you will reach the application
+main panel configured with this account (the account name is
+displayed in frame title).</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="control-archiving">
+<h1>Control archiving<a class="headerlink" href="#control-archiving" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>This section deals with controlling archiving of Tango attributes
+through <strong>Archiving Configurations</strong> (henceforth <strong>AC</strong>).</p>
+<p>An AC describes which attributes to archive and how, and consists
+of:</p>
+</div></blockquote>
+<ul>
+<li><p class="first">General information (when the AC was created …).</p>
+</li>
+<li><p class="first">A list of attributes to archive.</p>
+</li>
+<li><p class="first">For each attribute, a set of HDB/TDB archiving modes.</p>
+<blockquote>
+<div><p>ACs is accessed/used in the AC panel:</p>
+<p><a class="reference internal" href="_images/image15.png"><img alt="image16" src="_images/image15.png" style="width: 6.30000in; height: 5.89514in;" /></a></p>
+<p>Figure 6: The AC panel</p>
+</div></blockquote>
+</li>
+</ul>
+<div class="section" id="creating-modifying-an-ac">
+<h2>Creating/modifying an AC<a class="headerlink" href="#creating-modifying-an-ac" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>The creation or modification of an AC is done the same way, using
+the New/Modify button respectively. We will see how to load an AC
+later.</p>
+<p><em>Step 1: AC general properties</em></p>
+</div></blockquote>
+<ul>
+<li><p class="first">Click the New/Modify button in the AC actions panel</p>
+</li>
+<li><p class="first">The following dialog appears</p>
+<blockquote>
+<div><p><a class="reference internal" href="_images/image16.png"><img alt="image17" src="_images/image16.png" style="width: 6.30000in; height: 6.12569in;" /></a></p>
+<p>Figure : Step1, general properties</p>
+</div></blockquote>
+</li>
+<li><dl class="first docutils">
+<dt>You can choose a name for the AC. This field isn’t mandatory but it</dt>
+<dd><p class="first last">is recommended to fill it, to better identify your different ACs
+later.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The creation and update dates are filled or modified automatically</dt>
+<dd><blockquote class="first">
+<div><p>upon saving an AC. Click next</p>
+</div></blockquote>
+<p><em>Step 2: Select the AC attributes</em></p>
+<p>There are 2 ways to select the AC attributes. The user can choose a
+selection method in the Options.</p>
+<p><em>Step 2, method 1:</em></p>
+<p><a class="reference internal" href="_images/image17.png"><img alt="image18" src="_images/image17.png" style="width: 6.64770in; height: 7.24638in;" /></a></p>
+<p class="last">Figure 8: Step 2, select AC attributes (standard method)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The left tree lists the Tango attributes. The right tree represents</dt>
+<dd><blockquote class="first">
+<div><p>the current attributes of the edited AC. Both trees have the same
+structure of TANGO_HOST/Domains/Families/Members/Attributes.</p>
+</div></blockquote>
+<p class="last"><em>WARNING</em> The left tree listing the Tango attributes is initially
+only loaded up to Members level to avoid overloading. The attributes
+are loaded upon user selection of a Member (device) node.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Adding attributes to the current AC:</p>
+<ul>
+<li><p class="first">Select a tree node to expand it.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Select attributes in the left tree then press the right arrow to</dt>
+<dd><p class="first last">add them to the current AC.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Select a node in the left tree then press the right arrow to add</dt>
+<dd><p class="first last">all attributes under this node to the current AC (only works
+if those attributes were loaded).</p>
+</dd>
+</dl>
+</li>
+</ul>
+</li>
+<li><p class="first">Removing attributes from the current AC:</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Select attributes in the right tree then press the red X to remove</dt>
+<dd><p class="first last">them from the current AC.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Select a node in the right tree then press the red X to remove all</dt>
+<dd><p class="first last">attributes under this node from the current AC.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</li>
+<li><p class="first">Using “Match” to filter attributes:</p>
+<blockquote>
+<div><p>The user can enter an expression of the form D/F/M and click match
+to filter attributes in the left and right trees.</p>
+<p>D represents the Domains; F represents the Families, and M the
+Members. All trees can contain the joker character ‘*’.</p>
+<p>Since the tree loading is initially only up to Member level, it’s
+not possible to filter up to Attributes level.</p>
+<p><em>Step 2, method 2:</em></p>
+<p><a class="reference internal" href="_images/image18.png"><img alt="image19" src="_images/image18.png" style="width: 5.02273in; height: 4.88376in;" /></a></p>
+<p>Figure 9: Step 2, select AC attributes (alternate method)</p>
+</div></blockquote>
+</li>
+<li><p class="first">Attribute selection and automatic attributes adding:</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Choose a Domain. This refreshes the list of possible Device</dt>
+<dd><p class="first last">classes for this Domain.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Choose a Device class. This refreshes the list of possible</dt>
+<dd><p class="first last">Attributes for this Domain and Device class.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Choose an Attribute and press Add attribute:</p>
+</li>
+<li><p class="first">All Attributes</p>
+<ul class="simple">
+<li>with the selected name</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><strong>AND</strong></p>
+</div></blockquote>
+</li>
+<li><dl class="first docutils">
+<dt>belonging to any Device of the selected Class and Domain are added to</dt>
+<dd><blockquote class="first">
+<div><p>the current AC’s list of attributes.</p>
+</div></blockquote>
+<p class="last">All new attributes are red until the AC is saved.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Line level sub-selection of loaded attributes:</p>
+<blockquote>
+<div><p>Each attribute is initially checked, but this check can be removed
+by the user. When the user clicks on next, all unchecked attributes
+will be removed from the current AC.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Click “Select All” to select all lines.</p>
+</li>
+<li><p class="first">Click “Select None” to select no line.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Select lines in the list (CTRL and SHIFT are usable), then click</dt>
+<dd><blockquote class="first">
+<div><p>“Reverse for selected lines” to reverse the checked/unchecked
+status of all selected lines.</p>
+</div></blockquote>
+<p><em>Step 3: Set the AC attributes properties</em></p>
+<p><a class="reference internal" href="_images/image19.png"><img alt="image20" src="_images/image19.png" style="width: 6.30000in; height: 4.66736in;" /></a></p>
+<p class="last">Figure 10: Step 3, selecting archiving modes</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">A general description of the properties setting process:</p>
+<blockquote>
+<div><p>The way you set up archiving modes for each attribute is as follows:</p>
+</div></blockquote>
+</li>
+<li><p class="first">Select a group of attributes.</p>
+</li>
+<li><p class="first">Edit HDB/TDB modes.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Call “Set” for the current group of attributes: the currently</dt>
+<dd><p class="first last">displayed modes are applied to all attributes of the selection.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Repeat with next group of attributes.</p>
+</li>
+<li><p class="first">End edition by clicking “Finish”.</p>
+</li>
+<li><p class="first">Attributes selection</p>
+<blockquote>
+<div><p>The setting up of archiving modes can be “factorized” for a
+selection of attributes. All attributes of the selection will be set
+up with the currently displayed properties when the user presses
+“Set”.</p>
+<p>The multiple selections can consist of:</p>
+</div></blockquote>
+</li>
+<li><p class="first">A manual select at Attributes level (CTRL and SHIFT are usable).</p>
+</li>
+<li><dl class="first docutils">
+<dt>Selection of an upper node level: all Attributes nodes under this</dt>
+<dd><p class="first last">node will be set up.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">A combination of the two.</p>
+</li>
+<li><p class="first">Unset attributes and default values</p>
+<blockquote>
+<div><p>Attributes which haven’t received any Mode yet (unset) are displayed
+in <em>Italic</em>. Attributes which have (set) are displayed in <strong>Bold.</strong></p>
+<p>Clicking on a set attribute displays its archiving modes.</p>
+<p>Clicking on an unset attribute displays default archiving modes.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Controls upon AC validation.</p>
+<blockquote>
+<div><p>The user can not choose any and all combination of modes, nor any
+and all numeric values for each mode. Thus, controls are performed
+upon call to “Finish”:</p>
+</div></blockquote>
+</li>
+<li><dl class="first docutils">
+<dt>If any HDB (resp. TDB) mode is chosen for a given attribute, it must</dt>
+<dd><p class="first last">also have the basic HDB (resp. TDB) Periodic mode.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Any unset attribute will be removed from the AC; the user is prompted</dt>
+<dd><p class="first last">to continue editing the AC, or ignore them.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Numeric values are controlled for each mode.</p>
+<blockquote>
+<div><p>When the validation is over, the AC is displayed in the
+application’s AC panel.</p>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="the-opened-acs-menu">
+<h2>The opened ACs menu<a class="headerlink" href="#the-opened-acs-menu" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Mambo can have several opened ACs at once, even if only one is
+displayed on screen at a time. A drop-down menu allows the user to
+choose an AC in the list of opened ACs:</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>Each time the user loads an AC, it’s added to the top of the opened</dt>
+<dd><p class="first last">ACs list (the older ACs are shifted downwards in the opened ACs
+list)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The list identifies ACs by their name and date of last update. When</dt>
+<dd><p class="first last">the user selects an AC, it becomes the current AC, and its
+general information and attributes are displayed.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>To remove an AC from the list, push the red X button (this will do</dt>
+<dd><p class="first last">nothing if the list is empty or only has 1 element). The next AC
+in the reduced list (i.e. the one that was added to the list the
+most recently) is automatically displayed.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The list can hold no more than <em>[MAX_NUMBER]</em> ACs, this number can</dt>
+<dd><p class="first last">be defined in the AC tab of the options panel (default=5). If the
+list’s length reaches <em>MAX_NUMBER,</em> the oldest AC will be
+removed from the list when needed.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">ACs that have unsaved modifications are identified by a red star.</p>
+<blockquote>
+<div><p>If Mambo has the “History save” option turned on, the list of opened
+ACs will be saved at shutdown, and loaded at startup.</p>
+<p><a class="reference internal" href="_images/image20.png"><img alt="image21" src="_images/image20.png" style="width: 5.79304in; height: 5.06061in;" /></a></p>
+<p>Figure 11: Acs menu</p>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="starting-stopping-archiving">
+<h2>Starting/Stopping archiving<a class="headerlink" href="#starting-stopping-archiving" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-current-archiving-configuration-detail-panel">
+<h3>The Current Archiving Configuration detail panel<a class="headerlink" href="#the-current-archiving-configuration-detail-panel" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Attributes are displayed differently in selection trees, with
+respect to their current archiving status. The display shows their
+current status in DB, not their archiving modes in the current AC.</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>Attributes which aren’t being archived are displayed as off bulbs:</dt>
+<dd><p class="first last"><a class="reference internal" href="_images/image21.png"><img alt="image22" src="_images/image21.png" style="width: 0.19722in; height: 0.16875in;" /></a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Attributes which are being archived only in HDB are displayed as on,</dt>
+<dd><p class="first last">yellow bulbs: <a class="reference internal" href="_images/image22.png"><img alt="image23" src="_images/image22.png" style="width: 0.19722in; height: 0.18333in;" /></a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Attributes which are being archived only in TDB are displayed as on,</dt>
+<dd><p class="first last">brown bulbs: <a class="reference internal" href="_images/image23.png"><img alt="image24" src="_images/image23.png" style="width: 0.19722in; height: 0.18333in;" /></a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Attributes which are being archived in HDB and TDB are displayed as</dt>
+<dd><p class="first last">on, bicolor bulbs:<a class="reference internal" href="_images/image24.png"><img alt="image25" src="_images/image24.png" style="width: 0.19722in; height: 0.18333in;" /></a></p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="starting-stopping-archiving-on-an-ac">
+<h3>Starting/Stopping archiving on an AC<a class="headerlink" href="#starting-stopping-archiving-on-an-ac" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><em>Starting archiving</em>:</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>Create/Load an AC or just use the current AC. The AC that will be</dt>
+<dd><p class="first last">used is the one displayed in the application’s AC panel.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Call Start to start archiving each attribute by all its modes.</p>
+<blockquote>
+<div><p><em>Stopping archiving:</em></p>
+</div></blockquote>
+</li>
+<li><dl class="first docutils">
+<dt>Create/Load an AC or just use the current AC. The AC that will be</dt>
+<dd><p class="first last">used is the one displayed in the application’s AC panel.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Call Stop to stop archiving of each attribute. All archiving modes</dt>
+<dd><blockquote class="first">
+<div><p>will be stopped.</p>
+</div></blockquote>
+<p class="last">In both cases, a success/failure message confirms the action.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="displaying-an-ac">
+<h2>Displaying an AC<a class="headerlink" href="#displaying-an-ac" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-current-archiving-configuration">
+<h3>The Current Archiving Configuration<a class="headerlink" href="#the-current-archiving-configuration" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="_images/image25.png"><img alt="image26" src="_images/image25.png" style="width: 6.11062in; height: 5.05244in;" /></a></p>
+<p>Figure 12: Detail of the current AC</p>
+<blockquote>
+<div><p>This panel represents the current Archiving Configuration.</p>
+<p>On the left, a tree lists all of the AC’s attributes.</p>
+<p>When the user selects a given attribute on this tree, its HDB and
+TDB modes are displayed on the right sub-panel.</p>
+<p>This displays the attributes modes individually. To get a global
+view of the AC’s Archiving Modes, use the “Archiving assessment”
+command.</p>
+</div></blockquote>
+</div>
+<div class="section" id="the-archiving-assessment-window">
+<h3>The Archiving assessment window<a class="headerlink" href="#the-archiving-assessment-window" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="_images/image26.png"><img alt="image27" src="_images/image26.png" style="width: 6.56818in; height: 3.94077in;" /></a></p>
+<p>Figure 13: Global view of all the modes of an AC</p>
+<blockquote>
+<div><p>This window sums up the current Archiving Configuration in two tabs
+(one for HDB, one for TDB).</p>
+<p>For each attribute contained in the current AC, its archiving modes
+are detailed, and if the attribute is being archived, can be
+compared to the modes values found in HDB (resp. TDB).</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="saving-loading-an-ac">
+<h2>Saving/Loading an AC<a class="headerlink" href="#saving-loading-an-ac" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="saving-an-individual-ac">
+<h3>Saving an individual AC<a class="headerlink" href="#saving-an-individual-ac" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>Archiving Configurations are saved /loaded as XML files, with the
+.ac file extension.</p>
+<p>In the menu, select “ACs/Save” or “File/Save/Archiving
+configuration”:</p>
+<p>Saved operations work like they do with Word (for example):</p>
+</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>The first time a file is saved, the user is prompted to choose a path</dt>
+<dd><p class="first last">and file name. Initially the file chooser dialog is in the “ac”
+subdirectory of the Mambo working directory. The “.ac” file
+extension is automatically added if the user doesn’t.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>If a file was already saved, it will automatically be saved in the</dt>
+<dd><p class="first last">same file the next time the “Save” menu is selected.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The user can still specify a different file, by using the “ACs /Save</dt>
+<dd><blockquote class="first">
+<div><p>as” menu (or “File/Save As/Archiving configuration”).</p>
+</div></blockquote>
+<p>When an AC is loaded, it becomes the current Archiving Configuration
+and it is added to the list of opened ACs.</p>
+<p class="last">In both cases, a success/failure message confirms the action in the
+log panel.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="saving-all-opened-acs">
+<h3>Saving all opened ACs<a class="headerlink" href="#saving-all-opened-acs" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>It is possible to save all opened ACs. Only modified ACs will be
+saved (i.e. the ACs that has a “red star”).</p>
+<p>In the menu, select “ACs/Save All”:</p>
+<p>For each modified AC, the save operation will follow the same rules
+as an individual save:</p>
+</div></blockquote>
+<ul>
+<li><p class="first">If the file has already been saved before, it will be saved silently.</p>
+</li>
+<li><p class="first">Otherwise, the user will be prompted to choose a directory and file.</p>
+<blockquote>
+<div><p>In this case, the ACs that are being saved are successively selected
+before each file chooser prompt (so that the user knows which AC
+he’s choosing a path for).</p>
+<p>The generic “Save All” menu item in “File/ Save All” does this and
+the same thing for opened VCs.</p>
+</div></blockquote>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="transfer-to-vc">
+<h2>Transfer to VC<a class="headerlink" href="#transfer-to-vc" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>This functionality is used to quickly create a VC on the same
+attributes as a given AC (for example, when the user wants to
+monitor the values of attributes after starting archiving on an AC).</p>
+<p>It will create a VC automatically, with the following properties:</p>
+</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>Its attributes list is the same as the AC the “Transfer to VC”</dt>
+<dd><p class="first last">functionality is used on</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The attributes values are all extracted from HDB, even if some of the</dt>
+<dd><p class="first last">AC’s attributes were only archived in TDB (obviously, the display
+for such an attribute will be empty).</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">The date range of a one-hour range ends when the VC is created</p>
+</li>
+<li><dl class="first docutils">
+<dt>Every Attribute has an automatically determined color (if there are</dt>
+<dd><p class="first last">more attributes than colors to choose from, different attributes
+will have the same color).</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="exploit-archived-data">
+<h1>Exploit archived data<a class="headerlink" href="#exploit-archived-data" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>This section deals with controlling exploitation of archived
+attributes (HDB/TDB) through <strong>View Configurations</strong> (henceforth
+<strong>VC</strong>).</p>
+<p>A VC describes which attributes to display and how, and consists of:</p>
+</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>General information (when the VC was created, the date range to</dt>
+<dd><p class="first last">extract …).</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">A list of attributes to display.</p>
+</li>
+<li><p class="first">For each attribute, a set of display properties.</p>
+<blockquote>
+<div><p>The archived attributes of a VC either all come from HDB or all come
+from TDB, since it wouldn’t make sense to display HDB and TDB
+attributes in a common plot,</p>
+<p>VCs are accessed and used in the VC panel:</p>
+</div></blockquote>
+</li>
+</ul>
+<p><a class="reference internal" href="_images/image27.png"><img alt="image28" src="_images/image27.png" style="width: 6.30000in; height: 4.87153in;" /></a></p>
+<p>Figure 14: The VC panel</p>
+<div class="section" id="creating-modifying-a-vc">
+<h2>Creating/modifying a VC<a class="headerlink" href="#creating-modifying-a-vc" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Creation or modification of a VC is done the same way, using the
+New/Modify button respectively. We will see how to load a VC later.</p>
+<p><em>Step 1: VC general properties</em></p>
+<p>Those properties don’t depend on a specific attribute. They are
+common to all VC attributes or describe the VC.</p>
+<p>Click the New/Modify button in the VC actions panel, the following
+dialog appears:</p>
+</div></blockquote>
+<p><a class="reference internal" href="_images/image28.png"><img alt="image29" src="_images/image28.png" style="width: 5.33071in; height: 7.67728in;" /></a></p>
+<p>Figure 15: Step 1, general properties</p>
+<p><em>Step 1.1: VC properties</em></p>
+<ul>
+<li><p class="first">You can choose a name for the VC. This field isn’t mandatory but it
+is recommended to fill it.</p>
+</li>
+<li><p class="first">The creation and update dates are filled automatically upon saving
+the VC.</p>
+</li>
+<li><p class="first">The user must define a date <em>range</em> (Start/End dates<em>)</em> to extract
+data from. This can be done either manually, or by selecting a “Since
+xxx” item in the “Date range” drop-down menu.</p>
+<blockquote>
+<div><p>In the latter case, the user can check the “Dynamic date range”.
+What this option does is recalculate the Start/End dates at each
+edition or refreshing the VC (see 6.3 <em>Displaying a VC</em>).</p>
+<p>Example: At 09:00 the user chose “Last 1 hour” as the “since
+option”.</p>
+<p>The date range will be [08:00-09:00].</p>
+<p>If the VC is then edited at 11:00, and “Dynamic date range” was
+checked, the date range will be [10:00-11:00]; otherwise it will
+still be [08:00-09:00].</p>
+</div></blockquote>
+</li>
+<li><p class="first">If the “Historic” checkbox is checked, VC attributes will be chosen
+among HDB attributes (otherwise, TDB).</p>
+</li>
+<li><p class="first">If the “History” checkbox is not checked, you are in TDB mode so you
+can import long term snapshot. In this case you can’t modify start
+and end date because the snapshot configures it himself.</p>
+</li>
+</ul>
+<p><em>Step 1.2: General chart properties</em></p>
+<ul>
+<li><p class="first">The user can define global chart properties (title, background …).</p>
+<blockquote>
+<div><p><a class="reference internal" href="_images/image29.png"><img alt="image30" src="_images/image29.png" style="width: 3.34252in; height: 4.40551in;" /></a></p>
+</div></blockquote>
+</li>
+</ul>
+<p>Figure 16: Step 1, general chart properties</p>
+<p><em>Step 1.3: Y1 axis properties</em></p>
+<p><a class="reference internal" href="_images/image30.png"><img alt="image31" src="_images/image30.png" style="width: 3.21920in; height: 3.62551in;" /></a></p>
+<p>Figure 17: Step 1, Y1 axis properties</p>
+<ul class="simple">
+<li>The user can define the left vertical axis properties (title, scale,
+…).</li>
+</ul>
+<p><em>Step 1.4: Y2 axis properties</em></p>
+<p><a class="reference internal" href="_images/image31.png"><img alt="image32" src="_images/image31.png" style="width: 3.36505in; height: 4.00056in;" /></a></p>
+<p>Figure : Step 1, Y2 axis properties</p>
+<ul>
+<li><p class="first">The user can define the right vertical axis properties (title, scale,
+…).</p>
+<blockquote>
+<div><p><em>Step 2: Select the VC attributes</em></p>
+<p>The attributes selection works the same way as an AC attributes
+selection, except for two differences:</p>
+</div></blockquote>
+</li>
+<li><p class="first">The only available selection mechanism is the tree selection</p>
+<blockquote>
+<div><p>The trees are initially loaded to the attributes level.</p>
+</div></blockquote>
+</li>
+</ul>
+<p><a class="reference internal" href="_images/image32.png"><img alt="image33" src="_images/image32.png" style="width: 5.22737in; height: 7.68432in;" /></a></p>
+<p>Figure : Step 2, selecting attributes</p>
+<ul>
+<li><p class="first">The left tree lists the HDB (resp. TDB) attributes. The right tree
+represents the current attributes of the edited VC. Both trees have
+the same structure of HDB (resp.
+TDB)/Domains/Families/Members/Attributes.</p>
+<blockquote>
+<div><p><em>WARNING</em> Unlike AC trees, VC trees are initially loaded to the
+Attributes level since archived attributes are a small subset of all
+Tango attributes.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Consequently, the match functionality works up to attributes names:
+one can use a D/F/M/A criterion.</p>
+</li>
+</ul>
+<p><em>Step 3: Set the VC attributes properties</em></p>
+<ul>
+<li><p class="first">General flow</p>
+<blockquote>
+<div><p>To set the VC attributes, user can refer to the ACs, it’s the same
+process.</p>
+<p><a class="reference internal" href="_images/image33.png"><img alt="image34" src="_images/image33.png" style="width: 6.30000in; height: 4.88681in;" /></a></p>
+</div></blockquote>
+</li>
+</ul>
+<p>Figure 20: Set the vc attributes</p>
+<p><em>Step 4: Controls upon VC validation</em></p>
+<ul class="simple">
+<li>Any unset attribute will be removed from the VC; the user is prompted
+to continue editing the VC, or ignore them.</li>
+<li>The VC’s date range is controlled</li>
+</ul>
+<p>When the validation is over, the VC is displayed in the application’s VC
+panel.</p>
+</div>
+<div class="section" id="the-opened-vcs-menu">
+<h2>The opened VCs menu<a class="headerlink" href="#the-opened-vcs-menu" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>The VCs menu opens in the same way as the ACs menu.</p>
+<p>See 5.2 <em>The opened ACs menu</em></p>
+</div></blockquote>
+</div>
+<div class="section" id="displaying-a-vc">
+<h2>Displaying a VC<a class="headerlink" href="#displaying-a-vc" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="_images/image34.png"><img alt="image35" src="_images/image34.png" style="width: 6.30000in; height: 6.19722in;" /></a></p>
+<p>Figure 21: The current VC panel</p>
+<blockquote>
+<div><p>This panel represents the current View Configuration; a tree lists
+all the VC’s attributes.</p>
+<p>To view specific parameters, the user must use the “Modify” button.</p>
+<p>Thanks to the docking, users can see two generals information.</p>
+</div></blockquote>
+<p><a class="reference internal" href="_images/image35.png"><img alt="image36" src="_images/image35.png" style="width: 6.49242in; height: 3.79226in;" /></a></p>
+<p>Figure 22: Extraction of Number and Boolean Scalars</p>
+<blockquote>
+<div><p>This panel shows the attribute’s extractions.</p>
+<p>If the user wants to extract attributes, he must select his time
+range then press to the button refresh<a class="reference internal" href="_images/image36.PNG"><img alt="image37" src="_images/image36.PNG" style="width: 0.65973in; height: 0.24963in;" /></a>.</p>
+<p>If he wants to stop the refreshing he will press to the button
+cancel<a class="reference internal" href="_images/image37.PNG"><img alt="image38" src="_images/image37.PNG" style="width: 0.59118in; height: 0.21420in;" /></a>.</p>
+</div></blockquote>
+<p><a class="reference internal" href="_images/image38.png"><img alt="image39" src="_images/image38.png" style="width: 6.30000in; height: 3.41250in;" /></a></p>
+<p>Figure 23: Extraction of String and State Scalars</p>
+<p>This panel gives Extraction of the string and state scalars.</p>
+<p><a class="reference internal" href="_images/image39.png"><img alt="image40" src="_images/image39.png" style="width: 6.10236in; height: 3.30545in;" /></a></p>
+<p>Figure 24: Extraction of Boolean Spectra</p>
+<p>This panel shows the results of the Extraction of Boolean spectra.</p>
+</div>
+<div class="section" id="saving-loading-a-vc">
+<h2>Saving/Loading a VC<a class="headerlink" href="#saving-loading-a-vc" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>The user does the same thing as in ACs to save or load VC.</p>
+<p>See 5.5 <em>Saving/Loading an AC</em>.</p>
+</div></blockquote>
+</div>
+<div class="section" id="using-the-variations-functionality">
+<h2>Using the Variations functionality<a class="headerlink" href="#using-the-variations-functionality" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>The Variations functionality is a filter which comes between a VC
+and the final plot display.</div></blockquote>
+<p><a class="reference internal" href="_images/image40.png"><img alt="image41" src="_images/image40.png" style="width: 5.94795in; height: 3.31818in;" /></a></p>
+<p>Figure 25: The &#8220;variations&#8221; attributes selection window</p>
+<blockquote>
+<div><p>The Variations window lists the VC attributes and their “variation”,
+which is defined as the difference between the min and max values in
+the VC’s date range.</p>
+<p>The user can then select attributes which variations that seem
+abnormal or interesting, and only plot those attributes.</p>
+<p>The Variations window is made of two different tables:</p>
+</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>The first one shows for every attribute its minimum and maximum</dt>
+<dd><p class="first last">values, and its variation.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">The second one gives every attribute and its balanced variation.</p>
+<blockquote>
+<div><p>Select lines in the left table, and press “View Selected Attributes”
+to display the filtered plot.</p>
+</div></blockquote>
+</li>
+</ul>
+<p><a class="reference internal" href="_images/image41.png"><img alt="image42" src="_images/image41.png" style="width: 6.30000in; height: 6.30000in;" /></a></p>
+<p>Figure 26: The View selected attributes</p>
+</div>
+</div>
+<div class="section" id="options">
+<h1>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h1>
+<p>Mambo manages global options. Those options are saved on application
+shutdown, and loaded on startup.</p>
+<p>The Options menu is located in the Menu bar: ToolsOptions.</p>
+<div class="section" id="applications-history-save-load-options">
+<h2>Application’s history save/load options<a class="headerlink" href="#applications-history-save-load-options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>These options define whether Mambo has a history, i.e. a persistent
+state when closed/reopened.</p>
+<p>If “Yes” is checked, a XML History file will be saved in Mambo’s
+workspace, and on next start up the current AC and VC will be
+loaded.</p>
+<p><a class="reference internal" href="_images/image42.png"><img alt="image43" src="_images/image42.png" style="width: 6.30000in; height: 6.79167in;" /></a></p>
+</div></blockquote>
+<p>Figure : The history options</p>
+</div>
+<div class="section" id="ac-options">
+<h2>AC options<a class="headerlink" href="#ac-options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Options for all Archiving Configurations, the user can define:</div></blockquote>
+<ul>
+<li><p class="first">An attribute selection mechanism for AC edition (see 5 <em>Control archiving</em>).</p>
+</li>
+<li><dl class="first docutils">
+<dt>Default modes selection and values for HDB and TDB archiving (see 5.1</dt>
+<dd><p class="first last"><em>Creating/modifying an AC</em>).</p>
+</dd>
+</dl>
+<ul>
+<li><dl class="first docutils">
+<dt>The selected modes and values will be preset for all unset</dt>
+<dd><p class="first last">attributes.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The default values can be saved to /loaded from an Archiving</dt>
+<dd><p class="first last">Configurations Defaults file (.acd extension).</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>The “Restore defaults” button reloads the defaults with non</dt>
+<dd><p class="first last">user-modifiable predefined values.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</li>
+<li><p class="first">The size of the “AC stack”, that is the maximum number of opened ACs.</p>
+</li>
+</ul>
+<p><a class="reference internal" href="_images/image43.png"><img alt="image44" src="_images/image43.png" style="width: 6.30000in; height: 6.79167in;" /></a></p>
+<p>Figure : The AC options</p>
+</div>
+<div class="section" id="vc-options">
+<h2>VC options<a class="headerlink" href="#vc-options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>These are the options for all View Configurations. The user can
+define:</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>Whether he wants to display the Read value of attributes only, the</dt>
+<dd><p class="first last">Write value only, or both.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">The size of the “VC stack”, that is the maximum number of opened VCs.</p>
+</li>
+<li><p class="first">The chart properties.</p>
+</li>
+<li><p class="first">The spectrum view (spectrum view type).</p>
+</li>
+</ul>
+<p><a class="reference internal" href="_images/image44.png"><img alt="image45" src="_images/image44.png" style="width: 6.30000in; height: 6.79167in;" /></a></p>
+<p>Figure : The VC options</p>
+</div>
+<div class="section" id="general-options">
+<h2>General options<a class="headerlink" href="#general-options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>The user can define:</div></blockquote>
+<ul class="simple">
+<li>The column separator for the tables</li>
+<li>The buffering of Tango attributes.</li>
+</ul>
+<p><a class="reference internal" href="_images/image45.png"><img alt="image46" src="_images/image45.png" style="width: 6.02731in; height: 5.17424in;" /></a></p>
+<p>Figure : General options</p>
+</div>
+</div>
+<div class="section" id="the-mambo-toolbar">
+<h1>The Mambo toolbar<a class="headerlink" href="#the-mambo-toolbar" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>The toolbar is located under the menu bar, and consists mainly of a
+set of shortcuts to often used functionalities.</p>
+<p><a class="reference internal" href="_images/image25.png"><img alt="image47" src="_images/image25.png" style="width: 6.30000in; height: 5.20903in;" /></a></p>
+</div></blockquote>
+<p>Figure 31: The Mambo toolbar</p>
+<ul class="simple">
+<li><img alt="image48" src="_images/image1.png" /> is a shortcut to create a new Archiving configuration or a
+new View configuration.</li>
+<li><a class="reference internal" href="_images/image46.png"><img alt="image49" src="_images/image46.png" style="width: 0.18753in; height: 0.16669in;" /></a> is a shortcut to load an Archiving configuration or a View
+configuration.</li>
+<li><a class="reference internal" href="_images/image47.png"><img alt="image50" src="_images/image47.png" style="width: 0.20833in; height: 0.20833in;" /></a> is a shortcut to save an Archiving configuration or a View
+configuration.</li>
+<li><a class="reference internal" href="_images/image48.png"><img alt="image51" src="_images/image48.png" style="width: 0.26045in; height: 0.22920in;" /></a> is a shortcut to save quickly all Archiving configurations
+or View configurations.</li>
+<li><img alt="image52" src="_images/image3.png" /> is a shortcut to print Archiving configuration or View
+configuration.</li>
+<li><img alt="image53" src="_images/image4.png" /> is a shortcut to reset Archiving configuration or View
+configuration.</li>
+</ul>
+</div>
+<div class="section" id="appendices">
+<h1>Appendices<a class="headerlink" href="#appendices" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="lexicon">
+<h2>Lexicon<a class="headerlink" href="#lexicon" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="archiving">
+<h3>Archiving<a class="headerlink" href="#archiving" title="Permalink to this headline">¶</a></h3>
+<p>The action of storing in database the values of Tango attributes in a
+time range, each value being associated with a time stamp.</p>
+</div>
+<div class="section" id="archiving-mode">
+<h3>Archiving mode<a class="headerlink" href="#archiving-mode" title="Permalink to this headline">¶</a></h3>
+<p>An archiving mode is a rule defining when an attribute has to be
+archived.</p>
+<p>The most basic archiving mode is the Periodic archiving mode, where an
+attribute is archived every N milliseconds.</p>
+<p>More elaborate archiving modes like the Threshold archiving mode ask for
+archiving when the attribute’s value meets certain conditions, but they
+can only be used in association with the Periodic archiving mode.</p>
+</div>
+<div class="section" id="ac">
+<h3>AC<a class="headerlink" href="#ac" title="Permalink to this headline">¶</a></h3>
+<p>Short for an Archiving Configuration</p>
+<p>Describes archiving for a set of attributes, by associating a set of
+archiving modes to each of its attributes.</p>
+</div>
+<div class="section" id="vc">
+<h3>VC<a class="headerlink" href="#vc" title="Permalink to this headline">¶</a></h3>
+<p>Short for a View Configuration.</p>
+<p>Describes plot properties for a set of attributes, by associating a set
+of plot properties to each of its attributes.</p>
+</div>
+<div class="section" id="hdb">
+<h3>HDB<a class="headerlink" href="#hdb" title="Permalink to this headline">¶</a></h3>
+<p>Short for the Historic Database.</p>
+<p>Attributes values archived in HDB are stored forever.</p>
+</div>
+<div class="section" id="tdb">
+<h3>TDB<a class="headerlink" href="#tdb" title="Permalink to this headline">¶</a></h3>
+<p>Short for the Temporary Database.</p>
+<p>Attributes values archived in TDB are deleted every [given deletion
+time].</p>
+<p>The TDB is regularly purged and the Interval of the purge is defined by
+the data base administrator and the system administrator.</p>
+</div>
+<div class="section" id="quick-save-quick-load">
+<h3>Quick Save/Quick load<a class="headerlink" href="#quick-save-quick-load" title="Permalink to this headline">¶</a></h3>
+<p>The action of saving (resp. loading) to a default file is Called “quick”
+because no user interaction to choose a directory/file name is required.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Welcome to Mambo&#8217;s documentation!</a></li>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#applications-context-historic-and-temporary-archiving">Application’s context: Historic and Temporary archiving</a></li>
+<li><a class="reference internal" href="#applications-description-and-goals">Application’s description and goals</a><ul>
+<li><a class="reference internal" href="#applications-goals">Application’s goals</a></li>
+<li><a class="reference internal" href="#a-first-look-at-mambo">A first look at Mambo</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#account-manager">Account manager</a><ul>
+<li><a class="reference internal" href="#creating-a-new-account">Creating a new account</a></li>
+<li><a class="reference internal" href="#deleting-an-existing-account">Deleting an existing Account</a></li>
+<li><a class="reference internal" href="#launching-application-with-an-existing-account">Launching application with an existing account</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#control-archiving">Control archiving</a><ul>
+<li><a class="reference internal" href="#creating-modifying-an-ac">Creating/modifying an AC</a></li>
+<li><a class="reference internal" href="#the-opened-acs-menu">The opened ACs menu</a></li>
+<li><a class="reference internal" href="#starting-stopping-archiving">Starting/Stopping archiving</a><ul>
+<li><a class="reference internal" href="#the-current-archiving-configuration-detail-panel">The Current Archiving Configuration detail panel</a></li>
+<li><a class="reference internal" href="#starting-stopping-archiving-on-an-ac">Starting/Stopping archiving on an AC</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#displaying-an-ac">Displaying an AC</a><ul>
+<li><a class="reference internal" href="#the-current-archiving-configuration">The Current Archiving Configuration</a></li>
+<li><a class="reference internal" href="#the-archiving-assessment-window">The Archiving assessment window</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#saving-loading-an-ac">Saving/Loading an AC</a><ul>
+<li><a class="reference internal" href="#saving-an-individual-ac">Saving an individual AC</a></li>
+<li><a class="reference internal" href="#saving-all-opened-acs">Saving all opened ACs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#transfer-to-vc">Transfer to VC</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#exploit-archived-data">Exploit archived data</a><ul>
+<li><a class="reference internal" href="#creating-modifying-a-vc">Creating/modifying a VC</a></li>
+<li><a class="reference internal" href="#the-opened-vcs-menu">The opened VCs menu</a></li>
+<li><a class="reference internal" href="#displaying-a-vc">Displaying a VC</a></li>
+<li><a class="reference internal" href="#saving-loading-a-vc">Saving/Loading a VC</a></li>
+<li><a class="reference internal" href="#using-the-variations-functionality">Using the Variations functionality</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#options">Options</a><ul>
+<li><a class="reference internal" href="#applications-history-save-load-options">Application’s history save/load options</a></li>
+<li><a class="reference internal" href="#ac-options">AC options</a></li>
+<li><a class="reference internal" href="#vc-options">VC options</a></li>
+<li><a class="reference internal" href="#general-options">General options</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#the-mambo-toolbar">The Mambo toolbar</a></li>
+<li><a class="reference internal" href="#appendices">Appendices</a><ul>
+<li><a class="reference internal" href="#lexicon">Lexicon</a><ul>
+<li><a class="reference internal" href="#archiving">Archiving</a></li>
+<li><a class="reference internal" href="#archiving-mode">Archiving mode</a></li>
+<li><a class="reference internal" href="#ac">AC</a></li>
+<li><a class="reference internal" href="#vc">VC</a></li>
+<li><a class="reference internal" href="#hdb">HDB</a></li>
+<li><a class="reference internal" href="#tdb">TDB</a></li>
+<li><a class="reference internal" href="#quick-save-quick-load">Quick Save/Quick load</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, S2I.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="_sources/index.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
